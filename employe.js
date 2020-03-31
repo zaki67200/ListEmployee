@@ -33,11 +33,11 @@ class Employees {
   {
     var ladate=new Date()
 
-    var anneeNaissance= ladate.getFullYear()-this.age_employee;
+    var anneeNaissance= ladate.getFullYear()-parseInt(this.age_employee);
 
     return anneeNaissance;
 
   }
- 
+
 
 }
